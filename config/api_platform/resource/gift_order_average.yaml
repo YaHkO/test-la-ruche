@@ -1,0 +1,9 @@
+App\Gift\Model\GiftAverage:
+
+  itemOperations: []
+  collectionOperations:
+    get:
+      method: 'GET'
+      path: '/gift/average'
+      swagger_context:
+        summary: 'Get Gift collection'

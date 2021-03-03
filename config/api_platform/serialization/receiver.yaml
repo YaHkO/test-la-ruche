@@ -1,0 +1,10 @@
+App\Entity\Receiver:
+  attributes:
+    id:
+      groups: ['gift:read']
+    firstName:
+      groups: [ 'gift:read' ]
+    lastName:
+      groups: [ 'gift:read' ]
+    countryCode:
+      groups: [ 'gift:read' ]

@@ -1,0 +1,16 @@
+App\Entity\Gift:
+
+  itemOperations:
+    get:
+      normalization_context:
+        groups: ['gift:read']
+      properties:
+        receiver:
+          subresource:
+            resourceClass: 'App\Entity\Receiver'
+            collection: false
+
+  collectionOperations:
+    get:
+      normalization_context:
+        groups: [ 'gift:read' ]

@@ -1,0 +1,12 @@
+App\Entity\Gift:
+  attributes:
+    id:
+      groups: ['gift:read']
+    code:
+      groups: [ 'gift:read' ]
+    description:
+      groups: [ 'gift:read' ]
+    price:
+      groups: [ 'gift:read' ]
+    receiver:
+      groups: [ 'gift:read' ]
